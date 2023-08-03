@@ -1,0 +1,16 @@
+@import "../../../css/index.css";
+
+
+.register-form-title {
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.register-form input {
+    padding: 13px 15px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}

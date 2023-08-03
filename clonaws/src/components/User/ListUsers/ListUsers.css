@@ -1,0 +1,29 @@
+.list-users {
+}
+
+.not_users {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.list-users__user {
+  display: flex;
+  align-items: center;
+  margin: 10px 15px;
+}
+.list-users__user img {
+  margin-right: 15px;
+}
+
+.list-users__user p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.list-users__user p:first-of-type {
+  color: #000;
+  font-weight: bold;
+}
+.list-users__user p:last-of-type {
+  color: gray;
+}

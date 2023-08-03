@@ -1,0 +1,28 @@
+.feed {
+  height: calc(100vh - 48px);
+  padding-top: 50px;
+  overflow-y: scroll;
+}
+
+.feed__box {
+  border: 2px solid gray;
+  margin-bottom: 50px;
+}
+
+.feed__box-user {
+  padding: 15px;
+}
+
+.feed__box-user img {
+  margin-right: 15px !important;
+}
+
+.feed_box-photo {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.feed_box-photo:hover {
+  opacity: 0.95;
+}

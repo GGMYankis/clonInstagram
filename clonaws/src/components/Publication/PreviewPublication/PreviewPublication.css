@@ -1,0 +1,12 @@
+.Preview-Publication {
+  height: 100%;
+  width: 200px;
+}
+.Preview-Publication:hover {
+  cursor: pointer;
+}
+
+.Preview-Publication img {
+  height: 100%;
+  width: 100%;
+}

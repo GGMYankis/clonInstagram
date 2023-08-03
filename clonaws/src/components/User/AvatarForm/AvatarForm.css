@@ -1,0 +1,24 @@
+@import "../../../css/index.css";
+
+
+.avatar-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-form button {
+    background-color: var(--background-light);
+    border-bottom: 1px solid var(--border-grey);
+    padding: 18px 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.avatar-form button:nth-child(1) {
+    color: var(--action);
+}
+
+
+.avatar-form button:nth-child(2) {
+    color: var(--danger);
+}

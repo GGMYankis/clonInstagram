@@ -1,0 +1,10 @@
+@import "../../css/index.css";
+
+.modal-basic {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.modal-basic .header {
+    text-align: center;
+}

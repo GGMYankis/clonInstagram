@@ -1,0 +1,22 @@
+.comments {
+  height: calc(100% - 100px);
+  overflow-y: scroll;
+}
+
+.comments .comment {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.comments .comment img {
+  margin-right: 15px !important;
+}
+.comments .comment p {
+  margin: 0;
+}
+
+.comments .comment p:first-of-type {
+  font-weight: bold;
+}

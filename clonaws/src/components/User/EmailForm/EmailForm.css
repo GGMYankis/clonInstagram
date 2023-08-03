@@ -1,0 +1,7 @@
+.email-form {
+    margin: 20px;
+}
+
+.email-form .ui.button {
+    background-color: red;
+}

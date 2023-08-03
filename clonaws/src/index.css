@@ -1,0 +1,12 @@
+@import "./css/index.css";
+
+* {
+    box-sizing: border-box
+}
+
+
+.btn-submit {
+    width: 100%;
+    background-color: #0095f6;
+    color: var(--font-light);
+}

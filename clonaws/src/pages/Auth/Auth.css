@@ -1,0 +1,37 @@
+@import "../../css/index.css";
+
+
+
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-grey-lght);
+    height: 100vh;
+}
+
+.auth .container-form {
+    border-radius: 5px;
+    border: 1px solid var(--border-grey);
+    padding: 20px 50px;
+}
+
+.change-form {
+    margin-top: 10px;
+    width: 400px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.change-form span {
+    color: var(--action);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.change-form span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

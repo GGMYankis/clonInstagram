@@ -1,0 +1,24 @@
+{
+  "name": "instalclone",
+  "version": "0.0.1",
+  "description": "El servidor de la app InstacloneG",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.jsx"
+  },
+  "author": "yankis genao",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "apollo-upload-client": "^17.0.0",
+    "aws-sdk": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.9.19",
+    "nodemon": "^2.0.22"
+  },
+  "resolutions": {
+    "fs-capacitor": "3.0.0"
+  }
+}

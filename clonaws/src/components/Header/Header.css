@@ -1,0 +1,19 @@
+@import "../../css/index.css";
+
+.header {
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0px 12px;
+    background-color: var(--background-light);
+    z-index: 1;
+    display: flex;
+    height: 55px;
+}
+
+.header a {
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    line-height: 55px;
+}

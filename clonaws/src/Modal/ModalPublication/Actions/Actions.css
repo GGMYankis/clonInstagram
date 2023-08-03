@@ -1,0 +1,19 @@
+@import "../../../css//index.css";
+.actions {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.actions i {
+  font-size: 20px !important;
+}
+
+.actions i:hover {
+  cursor: pointer;
+}
+
+.like.active {
+  color: var(--danger);
+}

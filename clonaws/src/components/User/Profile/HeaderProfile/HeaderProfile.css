@@ -1,0 +1,17 @@
+@import "../../../../css//index.css";
+
+.header-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-profile h2 {
+    margin: 0 30px 0 0;
+}
+
+.header-profile button {
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid var(--border-grey);
+}

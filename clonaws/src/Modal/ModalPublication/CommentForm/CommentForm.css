@@ -1,0 +1,21 @@
+.comment-form {
+  position: absolute !important;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}
+
+.comment-form .field {
+  margin: 0 !important;
+}
+/* CommentForm.css */
+
+/* Estilos para el input específico con el atributo type="text" */
+.comment-form .ui.input input[type="text"] {
+  height: 60px;
+  background-color: yellow;
+}
+
+.comment-form .ui.button {
+  background-color: red;
+}
